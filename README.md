@@ -76,15 +76,15 @@ Citation Request:
 
    15 - poutcome: outcome of the previous marketing campaign (categorical: "failure","nonexistent","success")
    # Social and economic context attributes
-   16 - emp.var.rate: employment variation rate - quarterly indicator (numeric)
+   16 - emp.var.rate: employment variation rate(tỷ lệ thay đổi việc làm) - quarterly indicator (numeric): Phân tán tỷ lệ việc làm là hệ số của sự thay đổi tỷ lệ việc làm khu vực ở một quốc gia, được cân nhắc bởi dân số tuyệt đối (dân số hoạt động) của mỗi khu vực.
 
-   17 - cons.price.idx: consumer price index - monthly indicator (numeric) 
+   17 - cons.price.idx: consumer price index - CPI(chỉ số giá tiêu dùng) - monthly indicator (numeric): chỉ số tính theo phần trăm để phản ánh mức thay đổi tương đối của giá hàng tiêu dùng theo thời gian
 
-   18 - cons.conf.idx: consumer confidence index - monthly indicator (numeric)  
+   18 - cons.conf.idx: consumer confidence index(chỉ số niềm tin của người tiêu dùng) - monthly indicator (numeric): mức độ lạc quan về tình trạng của nền kinh tế mà người tiêu dùng đang thể hiện thông qua các hoạt động tiết kiệm và chi tiêu của họ.  
 
-   19 - euribor3m: euribor 3 month rate - daily indicator (numeric)
+   19 - euribor3m: euribor 3 month rate( lãi suất 3 tháng của euribor) - daily indicator (numeric)
 
-   20 - nr.employed: number of employees - quarterly indicator (numeric)
+   20 - nr.employed: number of employees(số lượng nhân viên) - quarterly indicator (numeric)
 
   ### Output variable (desired target):
    21 - y - has the client subscribed a term deposit? (binary: "yes","no")
